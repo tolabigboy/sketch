@@ -63,17 +63,14 @@ header {
     background-color: rgba(0, 0, 0, 0);
    
 }
-
 .menu-borders {
     display: block;
     cursor: pointer;
 }
-
 .border-1 {
     border: 1px solid var(--dark-header-color);
     width: 20px;
 }
-
 .border-2 {
     border: 1px solid var(--dark-header-color);
     width: 20px;
