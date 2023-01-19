@@ -25,7 +25,7 @@ body {
     height: 100vh;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .wrapper {
@@ -550,7 +550,7 @@ header {
 }
 .illustration-section ::before {
     display: block;
-    content: '';
+    /* content: '';
     position: absolute;
     background-image: url(/Images/page-background@2x.png);
     background-size: contain;
@@ -562,7 +562,7 @@ header {
     right: -200px;
     bottom: 0;
     z-index: -1;
-    overflow: hidden;
+    overflow: hidden; */
 }
 .editors {
     background-color: #a9acae;
